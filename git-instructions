@@ -1,7 +1,20 @@
+git --version                                                                                 # displays version
+git config --global user.name baswanth-oruganti
+git config --global user.email baswanth-oruganti@gmail.com
+
+git status # to see what is in staging
+git rm --cached rem-file.py # to remove file from repo                                      # removes file from remote repo
+
+git add .                                                                                   # adds everything to repo
+
+touch .gitignore                                                                            # add file names to ignore when uploading to remote repo
+
 echo "# test" >> README.md
-git init
+git init                                                                                    # initializes empty repository
 git add README.md
-git commit -m "first commit"
+git commit -m "first commit"                                                                # moving from staging to commiting: adds to local repo
 git branch -M main
-git remote add origin https://github.com/baswanth-oruganti/test.git
-git push -u origin main
+git remote add origin https://github.com/baswanth-oruganti/test.git                         # adds remote repo as origin
+git push -u origin main                                                                     # push local repo to the main branch of remote repo origin
+git clone https://github.com/baswanth-oruganti/plots-with-matplotlib.git                    # clone remote repo to local machine
+
