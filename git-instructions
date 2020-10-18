@@ -1,6 +1,7 @@
 git --version                                                                                 # displays version
 git config --global user.name baswanth-oruganti
 git config --global user.email baswanth-oruganti@gmail.com
+git config --global core.editor "vim"
 
 git status # to see what is in staging
 git rm --cached rem-file.py # to remove file from repo                                      # removes file from remote repo
