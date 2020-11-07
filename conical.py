@@ -1,6 +1,3 @@
-# This script creates a conical intersection plot for two electronic states
-
-
 import pandas as pd
 import math
 import numpy as np

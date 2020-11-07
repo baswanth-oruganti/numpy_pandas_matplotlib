@@ -1,5 +1,3 @@
-#makes a contour plot by reading data from 3 columns from the file argument act.dat
-
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
