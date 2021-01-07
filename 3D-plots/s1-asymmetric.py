@@ -10,7 +10,7 @@ Z = np.cos(1.4*X)+0.5*X
 
 fig = plt.figure()
 ax = Axes3D(fig)
-ax.plot_wireframe(X, Y, Z, color='blue')
+ax.plot_surface(X, Y, Z, color='red')
 
 #Hide grid lines
 ax.grid(False)
