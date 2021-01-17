@@ -48,7 +48,7 @@ fig.colorbar(mappable=image,ticks=breaks, orientation='vertical',ax=ax)
 ax.set_xlabel('Normalized s(R)')
 ax.set_ylabel('z(R)')
 
-
+plt.savefig("test.eps")
 plt.show()
 
 
