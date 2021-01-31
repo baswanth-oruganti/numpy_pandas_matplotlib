@@ -1,0 +1,10 @@
+-------------
+ OWN BASIS SET                                       HARTREE          KCAL/MOL
+ -------------
+ ELECTROSTATIC FREE ENERGY             ES=         -0.041295            -35.91
+ EXCHANGE FREE ENERGY                  EX=         -0.101908            -53.95
+ REPULSION FREE ENERGY                REP=          0.183860            135.37
+ POLARIZATION FREE ENERGY             POL=         -0.024972            -45.67
+ DESOLVATION FREE ENERGY            DESOL=          0.003195              4.00
+ DFT CORRELATION                     CORR=         -0.034151            -11.43
+ TOTAL INTERACTION ENERGY HF OR DFT     E=         -0.015271             -5.58
